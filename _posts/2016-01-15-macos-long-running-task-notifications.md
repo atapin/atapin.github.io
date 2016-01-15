@@ -13,4 +13,4 @@ I found the following solution:
 
 As soon as the task gets completed, you will see a native MacOS notification bubble:
 
-![Notification example]({{ site.url }}/images/2016-01-15/1.png)
+![Notification example]({{ site.url }}/images/2016-01-15/1.png){:height="123px" width="358px"}
