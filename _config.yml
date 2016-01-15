@@ -1,8 +1,7 @@
 # Site settings
 title: Andrey Atapin
 email: me@andreyatapin.com
-description: > # this means to ignore newlines until "baseurl:"
-  Under construction
+description: Climbing on the mountain of software development
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://andreyatapin.com" # the base hostname & protocol for your site
 twitter_username: a_atapin
