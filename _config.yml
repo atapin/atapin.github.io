@@ -2,12 +2,12 @@
 title: Andrey Atapin
 email: me@andreyatapin.com
 description: Climbing on the mountain of software development
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://andreyatapin.com" # the base hostname & protocol for your site
 
 locale                   : "en"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Andrey Atapin"
 repository               : "atapin/atapin.github.io" 
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
