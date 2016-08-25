@@ -2,7 +2,7 @@
 title: Andrey Atapin
 email: me@andreyatapin.com
 description: Climbing on the mountain of software development
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://andreyatapin.com" # the base hostname & protocol for your site
 
 locale                   : "en"
