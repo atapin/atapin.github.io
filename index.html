@@ -1,14 +1,33 @@
 ---
-layout: archive
-author_profile: true
+layout: default
+title: Home
 ---
 
-{% include base_path %}
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</div>
 
-{% include paginator.html %}
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
